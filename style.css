@@ -35,27 +35,35 @@
 }
 
 
-.c-color {
+.c-color,
+.c:active {
   background-color: #db1d2d;
 }
-.d-color {
+.d-color,
+.d:active {
   background-color: #f0421c;
 }
-.e-color {
+.e-color,
+.e:active {
   background-color: #fec02d;
 }
-.f-color {
+.f-color,
+.f:active {
   background-color: #20d071;
 }
-.g-color {
+.g-color,
+.g:active {
   background-color: #1a9ddb;
 }
-.a-color {
+.a-color,
+.h:active {
   background-color: #a13fad;
 }
-.b-color {
+.b-color,
+.b:active {
   background-color: #f26fd4;
 }
-.hc-color {
+.hc-color,
+.hc:active {
   background-color: #f6c;
 }
