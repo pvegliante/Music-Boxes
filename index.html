@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Music Boxes</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <ul class="boxes-container">
+    <li class="box c" id="cBox">c<span class="black-key"></span></li>
+    <li class="box d" id="dBox">d<span class="black-key"></span></li>
+    <li class="box e" id="eBox">e<span class="black-key"></span></li>
+    <li class="box f" id="fBox">f</li>
+    <li class="box g" id="gBox">g<span class="black-key"></span></li>
+    <li class="box a" id="aBox">a<span class="black-key"></span></li>
+    <li class="box b" id="bBox">b</li>
+    <li class="box hc" id="HighCBox">c</li>
+  </ul>
+
+  <audio id="cAudio">
+    <source src="./notes/c_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/c_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/c_note.wav" type="audio/wav"></source>
+  </audio>
+  <audio id="dAudio">
+    <source src="./notes/d_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/d_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/d_note.wav" type="audio/wav"></source>
+  </audio>
+  <audio id="eAudio">
+    <source src="./notes/e_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/e_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/e_note.wav" type="audio/wav"></source>
+  </audio>
+  <audio id="fAudio">
+    <source src="./notes/f_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/f_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/f_note.wav" type="audio/wav"></source>
+  </audio>
+  <audio id="gAudio">
+    <source src="./notes/g_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/g_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/g_note.wav" type="audio/wav"></source>
+  </audio>
+  <audio id="aAudio">
+    <source src="./notes/a_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/a_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/a_note.wav" type="audio/wav"></source>
+  </audio>
+  <audio id="bAudio">
+    <source src="./notes/b_note.mp3" type="audio/mpeg"></source>
+    <source src="./notes/b_note.ogg" type="audio/ogg"></source>
+    <source src="./notes/b_note.wav" type="audio/wav"></source>
+  <audio id="HighCAudio">
+    <source src="./notes/high_c_note.mp3" type="audio/mpeg"></source>
+  </audio>
+
+  <script src="./app.js"></script>
+</body>
+</html>
